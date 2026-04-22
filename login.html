@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="hostel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="loginchey">
+   <div class="login"> <form action="leaveform.html" class="lgin">
+        <img src="National_Institute_of_Technology,_Kurukshetra_Logo.png" alt="" class="logo">
+        <label for="" style="font-size: x-large;color: brown;" class="loginpage">LOGIN PAGE</label><br><br>
+        <label for="name" style="font-size: large;color: brown;">Email:</label>
+        <input type="email" id="name" pattern=".+@gmail.com" ><br><br>
+        
+        <div class="password_container">
+    <label style="font-size: large;color: brown;">Enter Password:</label>
+    <input type="password" minlength="8" id="passwordlogin"
+    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+    required>
+    <i class="fas fa-eye" id="togglepassword1"></i>
+</div>
+<br><br>
+     
+        <label for="captcha" style="font-size: large;color: brown;">Enter captcha:</label><input type="text" name="" id="captcha-question" ><br><br>
+          <input type="submit" value="LOGIN"><br><br>
+        <label for="signup" class="signup">Didn't signup yet?<a href="signup.html" target="_blank">Clickme</a></label><br>
+        <label for="fp" class="fp"><a href="">Forgot Password?</a></label>
+    </form></div>
+     <script src="style.js"> </script>
+</body>
+</html>

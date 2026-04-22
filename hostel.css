@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+.body{
+     background-color: whitesmoke;  background-size: cover;
+}
+
+.abc{
+    color: #873a3a;
+    background-image: url('image\ copy\ 5.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0%;
+    padding-right: 40%;
+}
+
+.xyz{
+    margin-top: 0%;
+  position: relative;
+    width: 100%;
+    height: 350vh; 
+}
+
+.xyz::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("image\ copy\ 4.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.kc{
+    padding-right: 41%;
+}
+
+hr {
+  margin-top: 0px;   
+  margin-bottom: 0px; 
+}
+
+.a{
+    color: #722b2b;
+}
+
+th,td{
+    border:1px solid black ;
+}
+
+
+.loginchey{
+    background-image: linear-gradient(to bottom right,wheat,aliceblue);
+    
+}
+
+.login{
+    border: 2px solid blue;
+    border-style: ridge;
+    text-align: center;
+    align-content: center;
+    margin: 150px 600px;
+    padding: 50px;
+    background-color: whitesmoke; 
+    border-radius: 10px;
+    box-shadow:0px 5px 6px black ;
+    text-align: center;
+}
+
+
+
+.logo{
+    
+    height:  20px;
+    width: 25px;
+}
+
+.leaveform::before{
+    content: "";
+    background-image: url('image\ copy\ 4.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1400px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.leaveform{
+    text-align: center;
+    margin: 0px 200px;
+    background-color: aliceblue ;
+}
+
+.password_container {
+    position: relative;
+}
+
+.password_container input {
+    width: 100%;
+    padding: 8px;
+    padding-right: 35px;
+}
+
+.password_container i {
+    position: absolute;
+    right: 10px;
+    top: 28px;
+    cursor: pointer;
+}

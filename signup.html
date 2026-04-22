@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP PAGE</title>
+    <link rel="stylesheet" href="hostel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="loginchey">
+   <div class="login"> <form action="login.html" class="lgin">
+        <img src="National_Institute_of_Technology,_Kurukshetra_Logo.png" alt="" class="logo">
+        <label for="" style="font-size: x-large;color: brown;" class="loginpage">SIGNUP PAGE</label><br><br>
+        <label for="name" style="font-size: large;color: brown;">Email:</label>
+        <input type="email" id="name" pattern=".+@gmail.com" ><br><br>
+      <div class="password_container">
+    <label style="font-size: large;color: brown;">Enter New Password:</label>
+    <input type="password" minlength="8" id="password1"
+    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+    required>
+    <i class="fas fa-eye" id="togglepassword1"></i>
+</div>
+
+<br><br>
+
+<div class="password_container">
+    <label style="font-size: large;color: brown;">Confirm Password:</label>
+    <input type="password" minlength="8" id="password2"
+    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+    required>
+    <i class="fas fa-eye" id="togglepassword2"></i>
+    <input type="checkbox" id="checkboxtoggle" onclick="toggle()" >SHOW PASSWORD
+</div><br><br>
+        
+       
+       
+        <input type="submit" value="SIGN UP" onclick=checkpasswords()>
+         
+    </form></div>
+    <script src="style.js"> </script>
+</body>
+</html>

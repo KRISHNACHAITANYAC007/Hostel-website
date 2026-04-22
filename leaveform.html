@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hostel.css">
+</head>
+<body>
+    
+    <form action="" method="get" autocomplete="on" id="leaveform" novalidate>
+    <fieldset>
+        <legend><div class="a"><h1>FORM FILLING</div></h1></legend>
+    <div class="leaveform"><div class="a">
+     <!-- <h1>FORM FILLING</h1>   -->
+    <h4>Student Name:</h4></div>
+    <input type="text" placeholder="Enter your name"> <br>
+    <div class="a"><h4>Student ID:</h4></div> 
+    <input type="text" placeholder="Enter your id"> <br>
+    <div class="a"><h4>Leave Start Date:</h4></div>
+    <input type="date" name="" id="">
+    <div class="a"><h4>Leave End Date:</h4></div>
+    <input type="date" name="" id="">
+    <div class="a"><h4>Reason for Medical Leave:</h4></div>
+    <textarea name="" id="" cols="30" rows="10"></textarea>
+    <div class="a">Reason:</div>
+    <input type="radio" name="a" id="x"><label for="x" >Medical</label> <br>
+    <input type="radio" name="a" id="z"><label for="z">Urgent </label>  <br>
+    <input type="radio" name="a" id="y"><label for="y">Marriage </label><br>
+    <input type="radio" name="a" id="c" ><label for="c">Others(specify)</label> <br>
+    <textarea name="a" id="c" cols="30" rows="10"></textarea><br>
+    
+    <div class="a"><h4>Location:</h4></div>
+    <input type="checkbox" name="" id="m"><label for="m">Chandigarh</label> <br>
+    <input type="checkbox" name="" id="n"><label for="n">Delhi</label>  <br>
+    <input type="checkbox" name="" id="o"><label for="o">Hyderabad</label> <br>
+    <input type="checkbox" name="" id="p"><label for="p" >Warangal</label> <br>
+    <input type="checkbox" name="" id="q"><label for="q">Others</label><br>
+    <div class="a"><h4>Enter email:</h4></div>
+    <input type="email" class="mailid"><br><br>
+    
+    <label for="date">ENTER DATE AFTER 2026-02-04:</label>
+        <input type="date" class="date" min="2026-02-04" ><br><br>
+
+    <label for="date">ENTER DATE BEFORE 2026-05-20:</label>
+        <input type="date" class="date" max="2026-05-20" ><br><br>
+
+    <label for="phno">ENTER PHONE NO:</label>
+    <input type="tel" name="phno" id="phno" pattern="+91-[0-9]{5}-[0-9]{5}" required><br><br>
+    <input type="submit" value="Submit"><br><br>
+
+</fieldset>
+</form></div>
+</body>
+</html>
